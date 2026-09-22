@@ -47,7 +47,7 @@ System.out.println("Is Student? " + isStudent);
     String fullSentence = scanner.nextLine(); // reads the entire line or paragraph
     System.out.println("You said: " + fullSentence);
 
-    scanner.close();
+    
         
 // Operators and Expressions 
 // =, -, *, /, %, &&, ||, >, <, <=, >=,!=
@@ -83,11 +83,34 @@ score += 10;
 System.out.println("\nScore after the += 10: " + score);
 score *= 2;
 System.out.println("\nScore after the *= 10: " + score);
+
+// Increment / Decrement Operators
+int counter = 5;
+        System.out.println("\ncounter ++ (post): " + counter++);
+        System.out.println("counter now: " + counter++);
+        System.out.println("++counter (pre) " + ++counter);
+
+// Control Flow (if/else, switch case, loops (for, while, do while))
+System.out.println("Enter your exam score: ");
+        int Examscore = scanner.nextInt();
+
+        if (Examscore >= 90){
+            System.out.println("Grade: A");
+        } else if (Examscore >= 80){
+            System.out.println("Grade: B");
+        } else if (Examscore >= 70){
+            System.out.println("Grade: C");
+        } else {
+            System.out.println("Grade: F");
+        }
         
-    
+        scanner.close();
+
+// SWITCH CASE STATEMENT
+
+
     }
 }
 
 
     
-
