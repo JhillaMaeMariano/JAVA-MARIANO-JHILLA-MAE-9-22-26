@@ -59,7 +59,7 @@ System.out.println("a / b = " + (a / b));
 System.out.println("a % b = " + (a % b));
 
 double x = 10, y = 3;
-System.out.println("x / y = " + (x / y));
+System.out.println("\nx / y = " + (x / y));
 
 // Relational operators (return bool: 1 or 0)
 System.out.println("\na == b = " + (a == b));
@@ -88,7 +88,7 @@ System.out.println("\nScore after the *= 10: " + score);
 int counter = 5;
         System.out.println("\ncounter ++ (post): " + counter++);
         System.out.println("counter now: " + counter++);
-        System.out.println("++counter (pre) " + ++counter);
+        System.out.println("++ counter (pre): " + ++counter);
 
 // Control Flow (if/else, switch case, loops (for, while, do while))
 System.out.println("Enter your exam score: ");
